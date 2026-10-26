@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@import './tokens.css';
+@import './site.css';
+@import './typography.css';
+
+* { box-sizing: border-box; }
+button, input, textarea, select { font: inherit; }
+button, a, input, textarea, select { -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+::selection { background: var(--accent); color: var(--accent-contrast); }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
